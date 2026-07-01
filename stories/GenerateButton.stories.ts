@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/nextjs";
+import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import GenerateButton from "../components/GenerateButton";
 
 const meta: Meta<typeof GenerateButton> = {

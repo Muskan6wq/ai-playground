@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/nextjs";
+import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import ModelSelector  from "../components/ModelSelector";
 
 const meta: Meta<typeof ModelSelector> = {
