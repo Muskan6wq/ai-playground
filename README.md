@@ -163,7 +163,16 @@ While building this project I learned a lot about:
 ---
 
 
+## Storybook
 
+Storybook was used to develop and test reusable UI components independently from the application.
+
+Implemented stories:
+
+- GenerateButton
+- Slider
+- ModelSelector
+- ResponseCard
 
 
 ## Live Demo
