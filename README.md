@@ -8,6 +8,26 @@ Since this is a frontend assessment, the AI response is currently mocked instead
 
 ---
 
+## Research
+
+Before designing Nova AI Studio, I explored different AI interfaces to understand common layouts and features.
+
+Platforms reviewed:
+
+- OpenAI Playground
+- Anthropic Claude
+- Hugging Face Spaces
+- Microsoft Copilot
+
+Features I liked and included:
+
+- Clean workspace layout
+- Model selector
+- Prompt editor
+- Parameter controls
+- Theme toggle
+- Response section with copy functionality
+
 ## Features
 
 - AI model selection
@@ -22,6 +42,33 @@ Since this is a frontend assessment, the AI response is currently mocked instead
 - Responsive UI
 
 ---
+
+## Design
+
+I designed a simple one-page interface focusing on ease of use.
+
+Main sections:
+
+- Navbar
+- Hero section
+- AI Workspace
+- Response Card
+
+Tailwind Mapping:
+
+- Primary background: bg-slate-900
+- Cards: rounded-2xl border border-slate-700
+- Primary button: bg-gradient-to-r from-purple-500 to-blue-500
+- Text: text-white / text-slate-400
+
+Screenshots:
+### Dark mode 
+![Dark Mode](./screenshots/dark-mode.png)
+
+
+### Light Mode
+
+![Light Mode](./screenshots/light-mode.png)
 
 ## Tech Stack
 
@@ -42,6 +89,23 @@ public/
 
 
 ---
+
+
+## Development
+
+Implementation Notes
+
+- Built using Next.js App Router.
+- Components were separated for better reusability.
+- State is managed inside the Workspace component.
+- Theme preference and prompt data are stored using localStorage.
+- Mock responses simulate AI output without calling a real API.
+
+Known Limitations
+
+- AI responses are mocked.
+- Prompt templates are static.
+- Clipboard API depends on browser support.
 
 ## How to Run
 
@@ -98,15 +162,8 @@ While building this project I learned a lot about:
 
 ---
 
-## Screenshots
-
-### Dark mode 
-![Dark Mode](./screenshots/dark-mode.png)
 
 
-### Light Mode
-
-![Light Mode](./screenshots/light-mode.png)
 
 
 ## Live Demo
